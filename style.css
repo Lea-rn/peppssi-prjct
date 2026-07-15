@@ -1,0 +1,71 @@
+body {
+  margin: 0px;
+  background-color: #0360ba;
+  font-family: "Yuyu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* * ===> all elements ... */
+* {
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation-links-container {
+  padding-right: 120px;
+}
+
+.navigation-links-container a {
+  text-decoration: none;
+  color: white;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+header img {
+  margin-left: 120px;
+}
+
+.left {
+  width: 40%;
+  margin-left: 100px;
+}
+
+.right {
+  border: solid 2px red;
+  width: 20%;
+  margin-left: 500px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 200px;
+}
+
+.left h2 {
+  font-size: 60px;
+}
+
+.left button {
+  border: none;
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color: rgb(193, 81, 81);
+  font-size: 25px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.left button:hover {
+  background-color: rgb(141, 5, 5);
+  transform: scale(1.1, 1.1);
+}
