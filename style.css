@@ -39,7 +39,6 @@ header img {
 }
 
 .right {
-  border: solid 2px red;
   width: 20%;
   margin-left: 500px;
 }
@@ -68,4 +67,51 @@ main {
 .left button:hover {
   background-color: rgb(141, 5, 5);
   transform: scale(1.1, 1.1);
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.social-media-container a {
+  text-decoration: none;
+  display: block;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.right img {
+  animation: slider 2s;
+}
+
+@keyframes slider {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+footer {
+  text-align: center;
+}
+footer img {
+  animation: slideriny 3s;
+}
+
+@keyframes slideriny {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
